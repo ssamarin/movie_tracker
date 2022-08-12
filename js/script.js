@@ -26,9 +26,9 @@ for (let i = 0; i < 2; i++) {
 
 if (personalMovieDB.count < 10) {
     console.log("Просмотренно довольно мало фильмов");
-} else if (personalMovieDB.count >= 10 && personalMovieDB < 30) {
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
     console.log("Вы классный зритель");
-} else if (personalMovieDB >= 30) {
+} else if (personalMovieDB.count >= 30) {
     console.log("Вы киноман");
 } else {
     console.log("ERROR");
